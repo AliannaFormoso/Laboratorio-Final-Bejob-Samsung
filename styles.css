@@ -1,0 +1,55 @@
+/*=========Elementos===========*/
+h1 {
+  color: blue;
+  text-align: center;
+  text-shadow: 2px 2px 3px yellow;
+}
+
+legend {
+  background-color: rgb(240, 36, 36);
+  color: white;
+  font-size: 18px;
+}
+
+fieldset {
+  background-color: cyan;
+}
+
+button {
+  background-color: pink;
+}
+
+input[type="text"] {
+  background-color: yellow;
+  border: 1px solid #39c;
+}
+
+/*=========Agrupaciones============*/
+legend,
+fieldset,
+button,
+input[type="text"] {
+  border-radius: 5px;
+  margin-top: 1.5px;
+  margin-bottom: 1.5px;
+}
+
+/*==========IDs=============*/
+#submitReset {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#botonesFinales {
+  float: right;
+}
+
+/*=========Clases==========*/
+
+.botones {
+  background-color: rgb(129, 200, 209);
+  border-radius: 5px;
+  padding: 9px;
+  border: 2px solid gray;
+}
